@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<style>
+    html{
+        margin: 0;
+        padding: 0;
+        background: #E3EEFF;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .menu{
+        height: 50px;
+        display: flex;
+        width: 100%;
+        background-color: #5e7faf;
+    }
+    .logo{
+        width: 50%;
+    }
+    .logo img{
+        width: 40px;
+        margin-left: 20%;
+        margin-top: 5px;
+    }
+    .choose{
+        display: flex;
+        width: 20%;
+        text-decoration: left;
+        margin-left: 10%;
+    }
+    .choose p{
+        margin: auto;
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .fone{
+        margin-bottom: 50px;
+        height: 700px;
+        background-image: url(img/medecina1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    main{
+        height: 100%;
+        font-family: Times, Times New Roman, Georgia, serif;
+    }
+    main p{
+        height: 300px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .flex{
+        display: flex;
+    }
+    footer{
+        height: 60px;
+        background-color: #C0D1EC;
+        display: flex;
+    }
+    .content{
+        margin: 50px 10% 0 10%;
+        text-align: center;
+    }
+    .cover{
+        height: 650px;
+        background: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        top: 50px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .content{
+        position: absolute;
+        z-index: 2;
+    }
+    .choose p a:hover{
+        transition: 1s;
+        color: #074B9A;
+    }
+</style>
+<body>
+    <header>
+        <div class="fone">
+            <div class="menu">
+                <div class="logo">
+                    <a href="main.html"><img src="img/global-network.png"></a>
+                </div>
+                <div class="choose">
+                    <p style="margin-right: 40px;"><a href="finance.html">Фінанси</a></p>
+                    <p style="margin-right: 40px;"><a href="medicine.html">Медицина</a></p>
+                    <p><a href="from.html">Джерела</a></p>
+                </div>
+            </div>
+            <div style="display: flex; margin: 0 10% 0 10%; justify-content: center;">
+                    <div class="cover"></div>
+            </div>
+        </div>
+        <div class="cover" style="color: white;">
+            <p style="text-align: center; font-style: normal; font-weight: 700; font-size: 64px; line-height: 40px; color: white; margin-top: 18%;">Штучний інтелект в медицині</p>
+        </div>
+    </header>
+    <main>
+        <p style="font-size: 18px; line-height: 48px; margin: 0 15% 0 15%;">На відміну від людей, штучному інтелекту ніколи не потрібно спати. Моделі машинного навчання можна використовувати для спостереження за життєво важливими показниками пацієнтів, які отримують невідкладну допомогу, і попередження клініцистів, якщо певні фактори ризику збільшуються. У той час як медичні пристрої, як-от монітори серця, можуть відстежувати життєво важливі показники, AI може збирати дані з цих пристроїв і шукати більш складні стани, такі як сепсис. Один клієнт IBM розробив прогнозну модель штучного інтелекту для недоношених дітей з точністю до 75% у виявленні важкого сепсису.</p>
+        <p style="font-size: 25px; line-height: 48px; margin: 0 15% 0 15%; height: 50px; font-weight: bold;">Індивідуальне лікування захворювання</p>
+        <p style="font-size: 18px; line-height: 48px; margin: 0 15% 0 15%;">Впровадження точної медицини може стати простішою за допомогою віртуальної допомоги штучного інтелекту. Оскільки моделі штучного інтелекту можуть вивчати та зберігати переваги, ШІ має потенціал надавати пацієнтам персоналізовані рекомендації в режимі реального часу цілодобово. Замість того, щоб щоразу повторювати інформацію з новою людиною, система охорони здоров’я могла б запропонувати пацієнтам цілодобовий доступ до віртуального помічника зі штучним інтелектом, який міг би відповідати на запитання на основі історії хвороби, уподобань та особистих потреб пацієнта.</p>
+        <img src="img/medecina2.jpg" style="width: 100%;">
+        <p style="font-size: 25px; line-height: 48px; margin: 50px 15% 0 15%; height: 50px; font-weight: bold;">ШІ в медичній візуалізації</p>
+        <p style="font-size: 18px; line-height: 48px; margin: 0 15% 0 15%;">ШІ вже відіграє помітну роль у медичній візуалізації. Дослідження показали, що штучний інтелект на основі штучних нейронних мереж може бути настільки ж ефективним, як і рентгенологи люди, у виявленні ознак раку грудей, а також інших захворювань. Окрім допомоги клініцистам виявляти ранні ознаки захворювання, ШІ також може допомогти зробити вражаючу кількість медичних зображень, які клініцисти мають відстежувати, більш керованими, виявляючи життєво важливі частини історії пацієнта та представляючи їм відповідні зображення.</p>
+    </main>
+    <footer>
+            <div style="display: flex; padding-top: 10px; width: 70%;">
+                <img src="img/global-network.png" style="width: 40px; height: 40px; padding-left: 23%;">
+                <p style="margin-left: 10px;">Made by Olexandra Skrypnik</p>
+            </div>
+            <div style="display: flex; margin: auto;">
+                <img src="img/facebook.png" style="width: 30px; height: 30px; margin-right: 20px;">
+                <img src="img/instagram.png" style="width: 30px; height: 30px;">
+            </div>
+    </footer>
+</body>
+</html>   
